@@ -8,4 +8,5 @@ class User < ApplicationRecord
   # so in that form not only are we going to hit theu sers but we will hit the
   # payments aswell
   accepts_nested_attributes_for :payment
+  has_many :images
 end
